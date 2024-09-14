@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <h1>heading above the root </h1>
+    <div id="root">
+        Lavish is here 
+        <!-- lavish is here is replaced by root.render which means root.render replaces whatever is inside this root element -->
+    </div>
+    <h1>heading below the root</h1>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="app.js">
+        // we have to keep the react before the javascript 
+       
+    </script>
+</body>
+
+</html>
+
+<!-- one method of adding react in project is via the cdn links 
+ cdn links ? A CDN (Content Delivery Network) link is a URL that allows you to include external libraries or assets in your web project directly from a CDN provider. These links host the files on servers distributed globally, which helps with faster load times and reduces the load on your own servers. 
+ react = core react file
+ react dom = react for handling dom 
+ why two files ? beacouse react runs on different platforms hence react dom act as bridge between the react and dom
+ -->
+ <!-- check the elements in browser a heading is added in body -->
